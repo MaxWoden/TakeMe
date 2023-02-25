@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="16" viewBox="0 0 21 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #868686;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="google_plus_icn" class="cls-1" d="M1052.12,8160.11h-7.52v2.48h4.58a5.362,5.362,0,1,1-5.12-6.93,5.423,5.423,0,0,1,3.82,1.58l1.82-1.96a8.031,8.031,0,1,0-5.64,13.72,8.23,8.23,0,0,0,8.06-6.41v-2.48h0Zm4.88-.01h-1.54v-1.53h-1.32v1.53h-1.54v1.31h1.54v1.53h1.32v-1.53H1057v-1.31Z" transform="translate(-1036 -8153)"/>
+</svg>

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/nouislider.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>TakeMe</title>
+  </head>
+  <body>
+    <header class="" id="header">
+      <a href="#choosing" class="header-logo">TakeMe</a>
+      <button id="menu">&#9776;</button>
+      <nav>
+        <a href="#locations">Locations</a>
+        <a href="#accomodation">Accommodation</a>
+        <a href="#travel-guides">Travel Guides</a>
+        <a href="#where-to-stay">Where To Stay</a>
+        <a href="#contact-us">Contact Us</a>
+        <a href="#log-in">Log In</a>
+      </nav>
+    </header>
+
+    <main>
+      <article id="welcome">
+        <section class="welcome-1">
+          <h1>Find Your Dream Vacation Location</h1>
+          <p>
+            Search hundreds of locations from around the world and find your
+            perfect vacation location.
+          </p>
+          <form action="">
+            <input type="text" placeholder="Country or ZIP code" required />
+            <input type="text" placeholder="Transportation" required />
+            <input
+              type="number"
+              placeholder="Number of people"
+              min="1"
+              required
+            />
+            <button class="btn-blue btn-normal btn-drop">Search</button>
+          </form>
+        </section>
+        <section class="welcome-2">
+          <div>
+            <h1>Find Your Dream Vacation Location</h1>
+            <p>
+              Search hundreds of locations from around the world and find your
+              perfect vacation location.
+            </p>
+            <form action="">
+              <input type="text" placeholder="Country or ZIP code" required />
+              <input type="text" placeholder="Transportation" required />
+              <input
+                type="number"
+                placeholder="Number of people"
+                min="1"
+                required
+              />
+              <button class="btn-blue btn-normal btn-drop">Search</button>
+            </form>
+          </div>
+        </section>
+      </article>
+
+      <article id="locations">
+        <div class="wrapper">
+          <h1>Magical Santorini Greece’s Jewel</h1>
+          <p>
+            Candy-colored houses carved into cliffs, sapphire waters, gleaming
+            white buildings topped with half-spheres the color of a stormy sky.
+          </p>
+          <button class="btn-blue btn-big">Explore More</button>
+        </div>
+        <div class="locations-images">
+          <ul>
+            <li><img src="../img/locations-1.png" alt="" /></li>
+            <li><img src="../img/locations-2.png" alt="" /></li>
+            <li><img src="../img/locations-3.png" alt="" /></li>
+          </ul>
+          <div id="radiobuttons">
+            <a onclick="activate(this)" href="#locations" class="activated"></a>
+            <a onclick="activate(this)" href="#locations" class=""></a>
+            <a onclick="activate(this)" href="#locations" class=""></a>
+            <a onclick="activate(this)" href="#locations" class=""></a>
+            <a onclick="activate(this)" href="#locations" class=""></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="accomodation">
+        <ul>
+          <li>
+            <img src="../img/magical-paris.png" alt="" />
+            <h1>Magical Paris</h1>
+            <p>
+              City of light, one of the most famous cities in the world is
+              waiting to be explored. Some of the most famous museums, food and
+              landmarks are waiting for you in Paris.
+            </p>
+            <div class="rating">
+              <img src="../img/stars(4,5).png" alt="" />
+              <p>2436 Ratings</p>
+            </div>
+          </li>
+          <li>
+            <img src="../img/classic-london.png" alt="" />
+            <h1>Classic London</h1>
+            <p>
+              City of history, one of the most famous cities in the world is
+              waiting to be exlored. Some of the most famous museums, food, pubs
+              and ladnmarks are waiting for you in London.
+            </p>
+            <div class="rating">
+              <img src="../img/stars(4,5).png" alt="" />
+              <p>5438 Ratings</p>
+            </div>
+          </li>
+          <li>
+            <img src="../img/famous-new-york.png" alt="" />
+            <h1>Famous New York</h1>
+            <p>
+              City of fashion and yellow cabs, one of the most famous cities in
+              the world is waiting to be explored. Some of the most famous
+              museums, food and landmarks are waiting for you in New York.
+            </p>
+            <div class="rating">
+              <img src="../img/stars(4,5).png" alt="" />
+              <p>1243 Ratings</p>
+            </div>
+          </li>
+        </ul>
+      </article>
+
+      <article id="travel-guides">
+        .
+        <img class="arrow-left" src="../img/arrow-left.png" alt="" />
+        <ul>
+          <li class="sea-voyages">
+            <div class="rating">
+              <img src="../img/stars(4).png" alt="" />
+              <p>126 Visited</p>
+            </div>
+            <div class="description">
+              <p>Proffessional Guides</p>
+              <h1>Sea Voyages</h1>
+            </div>
+          </li>
+          <li class="mountain-climbs">
+            <div class="rating">
+              <img src="../img/stars(4).png" alt="" />
+              <p>126 Visited</p>
+            </div>
+            <div class="description">
+              <p>Safe Guides</p>
+              <h1>Mountain Climbs</h1>
+            </div>
+          </li>
+          <li class="quad-rides">
+            <div class="rating">
+              <img src="../img/stars(4).png" alt="" />
+              <p>126 Visited</p>
+            </div>
+            <div class="description">
+              <p>Expert Drivers</p>
+              <h1>Quad Rides</h1>
+            </div>
+          </li>
+        </ul>
+        <img class="arrow-right" src="../img/arrow-right.png" alt="" />
+      </article>
+
+      <article id="where-to-stay">
+        <div class="wrapper">
+          <h1>Subscribe to our newsletter</h1>
+          <p>
+            And receive all the latest news, discounts and updates about the
+            most visited locations from around the globe, daily.
+          </p>
+        </div>
+        <button class="btn-blue btn-big">Subscribe</button>
+      </article>
+
+      <article id="contact-us">
+        <div class="wrapper">
+          <h1>Contact Us</h1>
+          <form action="">
+            <div class="form-grid">
+              <div class="firstname">
+                <label>First Name</label>
+                <input type="text" placeholder="First Name" required />
+              </div>
+              <div class="lastname">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name" required />
+              </div>
+              <div class="email">
+                <label>Email</label>
+                <input type="email" placeholder="Email" required />
+              </div>
+              <div class="phone">
+                <label>Phone</label>
+                <input type="tel" placeholder="Phone" required />
+              </div>
+              <div class="message">
+                <label>Message</label>
+                <textarea placeholder="Your Message" required></textarea>
+              </div>
+            </div>
+            <button class="btn-blue btn-big">Send</button>
+          </form>
+        </div>
+        <img src="../img/contact-image.png" alt="" />
+      </article>
+
+      <article class="reviews">
+        <div class="reviews-header">
+          <p>Reviews(256)</p>
+          <div class="header-menu">
+            <button class="btn-blue btn-small btn-drop">
+              Sort
+              <img src="../img/arrow-icon.png" alt="" />
+            </button>
+            <button class="btn-blue btn-normal">Post A Review</button>
+          </div>
+        </div>
+        <div class="grey-line"></div>
+        <ul>
+          <li>
+            <div class="person">
+              <img class="avatar" src="../img/avatar-1.png" alt="" />
+              <div class="info">
+                <p>Anna Marksson</p>
+                <p>Visited Las Vegas</p>
+                <img src="../img/stars(4,5).png" alt="" />
+              </div>
+              .
+            </div>
+            <div class="comment">
+              <h1>We had a lovely time</h1>
+              <h1>02.17.2017</h1>
+              <p>
+                “I don’t know where to start. It was simply amazing! From the
+                time we got there to the staff at our hotel, to our Uber driver,
+                to the meals at our restaurant, i can’t wait until we visit Las
+                Vegas again!”
+              </p>
+            </div>
+          </li>
+          <div class="grey-line"></div>
+          <li>
+            <div class="person">
+              <img class="avatar" src="../img/avatar-2.png" alt="" />
+              <div class="info">
+                <p>Edward Signim</p>
+                <p>Visited Rome</p>
+                <img src="../img/stars(4,5).png" alt="" />
+              </div>
+            </div>
+            <div class="comment">
+              <h1>Magical Rome!</h1>
+              <h1>02.16.2017</h1>
+              <p>
+                “Everybody knows how much history this city has, but we were not
+                prepared by just how much it is! At every single corner you can
+                find a piece of history that is there for thousands of years. If
+                you didn’t visit, what you are waiting for?”
+              </p>
+            </div>
+          </li>
+          <div class="grey-line"></div>
+          <li>
+            <div class="person">
+              <img class="avatar" src="../img/avatar-3.png" alt="" />
+              <div class="info">
+                <p>Jenna Miles</p>
+                <p>Visited Belgrade</p>
+                <img src="../img/stars(4,5).png" alt="" />
+              </div>
+            </div>
+            <div class="comment">
+              <h1>Where Sava meets Danube</h1>
+              <h1>02.15.2017</h1>
+              <p>
+                “This city is nothing what i expected. Such a lively place, full
+                of color, wonderful people and fantastic food. Service is lovely
+                and my tour guide showed me much more than it was planned,
+                simply because he is amazing at his job! I can’t wait to go
+                back!”
+              </p>
+            </div>
+          </li>
+          <div class="grey-line"></div>
+          <li>
+            <div class="person">
+              <img class="avatar" src="../img/avatar-4.png" alt="" />
+              <div class="info">
+                <p>Jonathan Bright</p>
+                <p>Visited Tahiti</p>
+                <img src="../img/stars(4,5).png" alt="" />
+              </div>
+            </div>
+            <div class="comment">
+              <h1>White sand, blue skies</h1>
+              <h1>02.14.2017</h1>
+              <p>
+                “When we got there it was raining, but after it stopped, it was
+                lovely! Temperature is pleasant and i loved their free wifi
+                zones. If you have, bring your camera because you are going to
+                need it, a lot.”
+              </p>
+            </div>
+          </li>
+          <div class="grey-line"></div>
+        </ul>
+        <button class="btn-blue btn-normal">Load More</button>
+      </article>
+
+      <article class="top-bar">
+        <p>Where do you want to travel today?</p>
+        <div class="wrapper">
+          <div class="filters">
+            <button
+              onclick="style.display = 'none'"
+              class="medium-size btn-drop"
+            >
+              USA
+              <img src="../img/delete.png" alt="" />
+            </button>
+            <button
+              onclick="style.display = 'none'"
+              class="medium-size btn-drop"
+            >
+              New York
+              <img src="../img/delete.png" alt="" />
+            </button>
+            <button onclick="style.display = 'none'" class="big-size btn-drop">
+              City Life
+              <img src="../img/delete.png" alt="" />
+            </button>
+            <button
+              onclick="style.display = 'none'"
+              class="medium-size btn-drop"
+            >
+              Cheap
+              <img src="../img/delete.png" alt="" />
+            </button>
+          </div>
+          <div class="sort">
+            <p class="list-view">List View</p>
+            <p>Map View</p>
+            <button class="btn-blue btn-normal btn-drop">
+              Sort By
+              <img src="../img/arrow-icon.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article id="choosing" class="choosing">
+        <div class="left">
+          <section class="ny ny-1">
+            <div class="top">
+              <div>
+                <h1>New York Skyline Tour</h1>
+                <h1>The best of New York</h1>
+              </div>
+              <div>
+                <img src="../img/stars(4,5).png" alt="" />
+                <p>146 Reviews</p>
+              </div>
+            </div>
+            <div class="ny-img ny-1-img">
+              <p>$15</p>
+            </div>
+            <p class="description">
+              Take a look at New York from above, the best way to see this city.
+              You will find all the classic buildings, sights and more plus
+              there is a lunch after the tour.
+            </p>
+            <div class="grey-line"></div>
+            <div class="book">
+              <div class="space-left">
+                <img src="../img/people.png" alt="" />
+                <p>126 spaces left</p>
+              </div>
+              <button class="btn-blue btn-normal">Book Now</button>
+            </div>
+          </section>
+
+          <section class="dropping-list">
+            <ul>
+              <li>
+                <h1>Language Spoken</h1>
+                <img src="../img/arrow-icon.png" alt="" />
+              </li>
+              <div class="grey-line"></div>
+              <li>
+                <h1>Meal Type</h1>
+                <img src="../img/arrow-icon.png" alt="" />
+              </li>
+              <div class="grey-line"></div>
+              <li>
+                <h1>Excursions</h1>
+                <img src="../img/arrow-icon.png" alt="" />
+              </li>
+              <div class="grey-line"></div>
+              <li>
+                <h1>Hotel Type</h1>
+                <img src="../img/arrow-icon.png" alt="" />
+              </li>
+              <div class="grey-line"></div>
+              <li>
+                <h1>Room Type</h1>
+                <img src="../img/arrow-icon.png" alt="" />
+              </li>
+              <div class="grey-line"></div>
+              <li>
+                <h1>Rent A Car</h1>
+                <img src="../img/arrow-icon.png" alt="" />
+              </li>
+              <div class="grey-line"></div>
+              <li>
+                <h1>Shuttle Transport</h1>
+                <img src="../img/arrow-icon.png" alt="" />
+              </li>
+              <div class="grey-line"></div>
+              <li>
+                <h1>Parking</h1>
+                <img src="../img/arrow-icon.png" alt="" />
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="center">
+          <section class="ny ny-2">
+            <div class="top">
+              <div>
+                <h1>New York Skyline Tour</h1>
+                <h1>Walking Tour</h1>
+              </div>
+              <div>
+                <img src="../img/stars(4,5).png" alt="" />
+                <p>292 Reviews</p>
+              </div>
+            </div>
+            <div class="ny-img ny-2-img">
+              <p>$19</p>
+            </div>
+            <p class="description">
+              Take a look at New York from the street level, walk like a New
+              Yorker. You will see all the classic things, sights and more plus
+              there is a lunch after the tour.
+            </p>
+            <div class="grey-line"></div>
+            <div class="book">
+              <div class="space-left">
+                <img src="../img/people.png" alt="" />
+                <p>243 spaces left</p>
+              </div>
+              <button class="btn-blue btn-normal">Book Now</button>
+            </div>
+          </section>
+
+          <section class="destinations">
+            <div class="drop-list">
+              <h1>Destinations</h1>
+              <img src="../img/arrow-icon.png" alt="" />
+            </div>
+            <div class="grey-line"></div>
+            <div class="continents">
+              <p>Europe</p>
+              <p>Asia</p>
+              <p>Africa</p>
+              <p>North America</p>
+              <p>South America</p>
+            </div>
+          </section>
+
+          <section>
+            <div class="drop-list">
+              <h1>Trip Type</h1>
+              <img src="../img/arrow-icon.png" alt="" />
+            </div>
+            <ul class="filter-select">
+              <li>
+                <a onclick="filterOn(this)" href="#choosing" class="filterOn">
+                  <img src="../img/choice.png" alt="" />
+                </a>
+                <p>Round Trip</p>
+              </li>
+              <li>
+                <a onclick="filterOn(this)" href="#choosing" class="">
+                  <img src="../img/choice.png" alt="" />
+                </a>
+                <p>One Way</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="business">
+            <ul class="filter-select">
+              <li>
+                <a onclick="filterOn(this)" href="#choosing" class="">
+                  <img src="../img/choice.png" alt="" />
+                </a>
+                <p>First Class</p>
+              </li>
+              <li>
+                <a onclick="filterOn(this)" href="#choosing" class="">
+                  <img src="../img/choice.png" alt="" />
+                </a>
+                <p>Business</p>
+              </li>
+              <li>
+                <a onclick="filterOn(this)" href="#choosing" class="filterOn">
+                  <img src="../img/choice.png" alt="" />
+                </a>
+                <p>Coach</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="right">
+          <section class="ny ny-3">
+            <div class="top">
+              <div>
+                <h1>New York Skyline Tour</h1>
+                <h1>The Food Tour</h1>
+              </div>
+              <div>
+                <img src="../img/stars(4,5).png" alt="" />
+                <p>381 Reviews</p>
+              </div>
+            </div>
+            <div class="ny-img ny-3-img">
+              <p>$25</p>
+            </div>
+            <p class="description">
+              Learn where are all the best places to eat in this city, how to
+              find your way around thousands of great and tasty restaurants and
+              lear New York trough it’s food.
+            </p>
+            <div class="grey-line"></div>
+            <div class="book">
+              <div class="space-left">
+                <img src="../img/people.png" alt="" />
+                <p>110 spaces left</p>
+              </div>
+              <button class="btn-blue btn-normal">Book Now</button>
+            </div>
+          </section>
+
+          <section class="where">
+            <form action="">
+              <input
+                class="a"
+                type="text"
+                placeholder="Where country you want to go?"
+              />
+              <input type="text" placeholder="Where city you want to go?" />
+            </form>
+          </section>
+
+          <section class="price-range">
+            <div class="drop-list">
+              <h1>Price Range</h1>
+              <img src="../img/arrow-icon.png" alt="" />
+            </div>
+            <div id="slider"></div>
+          </section>
+
+          <section class="with">
+            <ul class="filter-select">
+              <li>
+                <a onclick="filterOn(this)" href="#choosing" class="filterOn">
+                  <img src="../img/choice.png" alt="" />
+                </a>
+                <p>Without Carry On</p>
+              </li>
+              <li>
+                <a onclick="filterOn(this)" href="#choosing" class="">
+                  <img src="../img/choice.png" alt="" />
+                </a>
+                <p>With Carry On</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <section class="footer">
+          <div>
+            <img src="../img/arrow-left.png" alt="" />
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+            </ul>
+            <img src="../img/arrow-right.png" alt="" />
+          </div>
+        </section>
+      </article>
+
+      <article class="map">
+        <img src="../img/map.png" alt="" />
+      </article>
+
+      <article class="video">
+        <h1>See Dubai from the sky</h1>
+        <div class="video-player">
+          <img class="play" src="../img/play.png" alt="" />
+        </div>
+      </article>
+
+      <article id="log-in">
+        <img src="../img/iphone.png" alt="" />
+        <div class="wrapper">
+          <h1>Downoload Our Free App!</h1>
+          <p>
+            Download our free app and stay up to date with all our latest
+            discounts, articles and reviews. Take a look at all the world’s top
+            destinations and decide where to spend your perfect vacation.
+          </p>
+          <button class="btn-blue btn-big">Download Now</button>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="wrapper">
+        <div class="wrapper-left">
+          <div class="company">
+            <h1>Company</h1>
+            <ul>
+              <li><p>About Us</p></li>
+              <li><p>Careers</p></li>
+              <li><p>Contact Us</p></li>
+              <li><p>Affiliates</p></li>
+              <li><p>News</p></li>
+              <li><p>Our App</p></li>
+              <li><p>Site Map</p></li>
+            </ul>
+          </div>
+          <div class="useful-links">
+            <h1>Useful Links</h1>
+            <ul>
+              <li><p>Travel Safe</p></li>
+              <li><p>Stay Healthy</p></li>
+              <li><p>Flight Monitor</p></li>
+              <li><p>Booking List</p></li>
+              <li><p>Lost Luggage</p></li>
+              <li><p>World Clock</p></li>
+            </ul>
+          </div>
+          <div class="for-companies">
+            <h1>For Companies</h1>
+            <ul>
+              <li><p>Advertise With Us</p></li>
+              <li><p>How It Works</p></li>
+              <li><p>Pricing Models</p></li>
+              <li><p>VAT Numbers</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="wrapper-right">
+          <h1>Stay in Touch</h1>
+          <form>
+            <input type="email" placeholder="Your Email" required />
+            <button class="btn-blue btn-normal">Subcribe</button>
+          </form>
+          <ul>
+            <li>
+              <a href="#"><img src="../img/twitter.svg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="../img/instagram.svg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="../img/facebook.svg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="../img/google-plus.svg" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="grey-line"></div>
+      <div class="footer-info">
+        <p>© 2017 TakeMe Free UI Kit</p>
+        <div class="policy">
+          <a href="#"><p>Privacy Policy</p></a>
+          <a href="#"><p>Terms of Use</p></a>
+          <a href="#"><p>Cookies Policy</p></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/wNumb.js"></script>
+    <script src="../js/nouislider.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
